@@ -1,0 +1,14 @@
+.DS_Store
+
+# Make
+/build
+/bin
+
+# Android Studio
+.idea
+.gradle
+local.properties
+*.iml
+buck-out/
+\.buckd/
+*.keystore

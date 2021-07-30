@@ -1,0 +1,5 @@
+rootProject.name = "MyLibrary2"
+include ':app'
+include ':libMyLibrary1'
+project(':libMyLibrary1').projectDir=new File('../../external/MyLibrary1/projects/android-studio/libMyLibrary1')
+include ':libMyLibrary2'
