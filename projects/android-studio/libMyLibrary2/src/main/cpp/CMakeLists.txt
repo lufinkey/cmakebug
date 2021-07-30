@@ -1,6 +1,6 @@
 
 cmake_minimum_required(VERSION 3.18.1)
-project("MyLibrary2")
+project(MyLibrary2)
 
 set( MYLIB2_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../../../.." )
 set( MYLIB1_ROOT "${MYLIB2_ROOT}/external/MyLibrary1")
