@@ -11,14 +11,9 @@ add_subdirectory("${MYLIB2_ROOT}/projects/android-studio/libMyLibrary2/src/main/
 add_library(
         TestApp
         SHARED
-        native-lib.cpp)
-
-find_library(
-        log-lib
-        log)
+        nativelib2.cpp)
 
 target_link_libraries(
         TestApp
         MyLibrary1
-        MyLibrary2
-        ${log-lib})
+        MyLibrary2)

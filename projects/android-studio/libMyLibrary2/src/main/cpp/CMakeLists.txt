@@ -22,11 +22,6 @@ target_include_directories(
         PRIVATE
         "${MYLIB1_ROOT}/src")
 
-find_library(
-        log-lib
-        log)
-
 target_link_libraries(
         MyLibrary2
-        MyLibrary1
-        ${log-lib})
+        MyLibrary1)

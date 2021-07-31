@@ -12,9 +12,3 @@ target_include_directories(
 		MyLibrary1
 		PUBLIC
 		"${MYLIB1_ROOT}/src")
-
-find_library(log-lib log)
-
-target_link_libraries(
-		MyLibrary1
-		${log-lib})
