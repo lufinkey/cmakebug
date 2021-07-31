@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Enter script directory
+base_dir=$(dirname "${BASH_SOURCE[0]}")
+cd "$base_dir"
+
 mkdir build-android
 
 function prepare_cmake
